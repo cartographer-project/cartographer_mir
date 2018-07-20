@@ -12,9 +12,9 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 
-=============================================
-Cartographer ROS for MiR Robotics Platforms
-=============================================
+=======================================================
+Cartographer ROS for Mobile Industrial Robots Platforms
+=======================================================
 
 .. toctree::
    :maxdepth: 2
@@ -22,13 +22,13 @@ Cartographer ROS for MiR Robotics Platforms
 
 `Cartographer`_ is a system that provides real-time simultaneous localization
 and mapping (`SLAM`_) in 2D and 3D across multiple platforms and sensor
-configurations. This repository provides Cartographer SLAM for `MiR
-Robotics`_ platforms via `Cartographer ROS`_.
+configurations. This repository provides Cartographer SLAM for
+`Mobile Industrial Robots`_ platforms via `Cartographer ROS`_.
 
 .. _Cartographer: https://github.com/googlecartographer/cartographer
 .. _Cartographer ROS: https://github.com/googlecartographer/cartographer_ros
 .. _SLAM: https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping
-.. _MiR Robotics: http://www.mirrobotics.com/
+.. _Mobile Industrial Robots: http://www.mirrobotics.com/
 
 Building & Installation
 =======================

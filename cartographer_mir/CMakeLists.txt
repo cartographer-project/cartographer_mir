@@ -52,6 +52,6 @@ if (CATKIN_ENABLE_TESTING)
   set_target_properties(configuration_files_test PROPERTIES COMPILE_FLAGS ${TARGET_COMPILE_FLAGS})
 endif()
 
-install(DIRECTORY launch configuration_files urdfs
+install(DIRECTORY launch configuration_files urdf
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )

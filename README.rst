@@ -12,9 +12,9 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 
-===========================================
-Cartographer ROS for MiR Robotics Platforms
-===========================================
+=======================================================
+Cartographer ROS for Mobile Industrial Robots Platforms
+=======================================================
 
 |build| |docs| |license|
 
@@ -23,27 +23,27 @@ Purpose
 
 `Cartographer`_ is a system that provides real-time simultaneous localization
 and mapping (`SLAM`_) in 2D and 3D across multiple platforms and sensor
-configurations. This repository provides Cartographer SLAM for `MiR
-Robotics`_ platforms via `Cartographer ROS`_.
+configurations. This repository provides Cartographer SLAM for
+`Mobile Industrial Robots`_ platforms via `Cartographer ROS`_.
 
 .. _Cartographer: https://github.com/googlecartographer/cartographer
 .. _Cartographer ROS: https://github.com/googlecartographer/cartographer_ros
 .. _SLAM: https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping
-.. _MiR: http://www.mobile-industrial-robots.com/en/
+.. _Mobile Industrial Robots: http://www.mobile-industrial-robots.com/en/
 
 Documentation
 =============
 
-You will find complete documentation for using Cartographer ROS with MiR
-Robotics platforms at `our Read the Docs site`_.
+You will find complete documentation for using Cartographer ROS with Mobile
+Industrial Robots platforms at `our Read the Docs site`_.
 
-.. _our Read the Docs site: https://google-cartographer-ros-for-mir-robotics-platforms.readthedocs.io
+.. _our Read the Docs site: https://google-cartographer-ros-for-mir-platforms.readthedocs.io
 
 Contributing
 ============
 
-You can find information about contributing to Cartographer ROS's MiR Robotics
-platforms support at `our Contribution page`_.
+You can find information about contributing to Cartographer ROS's MiR platforms
+support at `our Contribution page`_.
 
 .. _our Contribution page: https://github.com/googlecartographer/cartographer_mir/blob/master/CONTRIBUTING.md
 
@@ -52,10 +52,10 @@ platforms support at `our Contribution page`_.
     :scale: 100%
     :target: https://travis-ci.org/googlecartographer/cartographer_mir
 
-.. |docs| image:: https://readthedocs.org/projects/google-cartographer-ros-for-mir-robotics-platforms/badge/?version=latest
+.. |docs| image:: https://readthedocs.org/projects/google-cartographer-ros-for-mir-platforms/badge/?version=latest
     :alt: Documentation Status
     :scale: 100%
-    :target: https://google-cartographer-ros-for-mir-robotics-platforms.readthedocs.io/en/latest/?badge=latest
+    :target: https://google-cartographer-ros-for-mir-platforms.readthedocs.io/en/latest/?badge=latest
 
 .. |license| image:: https://img.shields.io/badge/License-Apache%202.0-blue.svg
      :alt: Apache 2 license.
