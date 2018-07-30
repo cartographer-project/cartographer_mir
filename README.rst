@@ -37,7 +37,7 @@ Documentation
 You will find complete documentation for using Cartographer ROS with Mobile
 Industrial Robots platforms at `our Read the Docs site`_.
 
-.. _our Read the Docs site: https://google-cartographer-ros-for-mir-platforms.readthedocs.io
+.. _our Read the Docs site: https://cartographer-mir.readthedocs.io
 
 Contributing
 ============
@@ -55,7 +55,7 @@ support at `our Contribution page`_.
 .. |docs| image:: https://readthedocs.org/projects/google-cartographer-ros-for-mir-platforms/badge/?version=latest
     :alt: Documentation Status
     :scale: 100%
-    :target: https://google-cartographer-ros-for-mir-platforms.readthedocs.io/en/latest/?badge=latest
+    :target: https://cartographer-mir.readthedocs.io/en/latest/?badge=latest
 
 .. |license| image:: https://img.shields.io/badge/License-Apache%202.0-blue.svg
      :alt: Apache 2 license.
