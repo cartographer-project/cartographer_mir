@@ -23,4 +23,4 @@ set -o verbose
 mkdir catkin_ws
 cd catkin_ws
 wstool init src
-ln -s /cartographer_fetch src/
+ln -s /cartographer_mir src/
