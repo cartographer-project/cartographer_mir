@@ -19,5 +19,5 @@ set -o verbose
 
 source "/opt/ros/${ROS_DISTRO}/setup.bash"
 source "/opt/cartographer_ros/setup.bash"
-source "/opt/cartographer_fetch/setup.bash"
+source "/opt/cartographer_mir/setup.bash"
 exec "$@"

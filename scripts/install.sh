@@ -29,5 +29,5 @@ cd catkin_ws
 # 'CMAKE_INSTALL_PREFIX' for non-test targets. This in itself is important to
 # avoid any issues caused by using 'CMAKE_INSTALL_PREFIX' during the
 # configuration phase of the build (e.g. cartographer/common/config.h.cmake).
-export BUILD_FLAGS="--use-ninja --install-space /opt/cartographer_fetch --install"
+export BUILD_FLAGS="--use-ninja --install-space /opt/cartographer_mir --install"
 catkin_make_isolated ${BUILD_FLAGS} $@
