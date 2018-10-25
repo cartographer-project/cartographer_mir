@@ -87,5 +87,21 @@
     <!-- rotation xyzw 0 0 0.921845 -0.387558 -->
     <origin rpy="0 0 3.937555" xyz="-0.359448 -0.241559 0.200000" />
   </joint>
+
+  <link name="camera">
+    <visual>
+      <origin xyz="0 0 0" />
+      <geometry>
+        <box size="0.06 0.04 0.02" />
+      </geometry>
+      <material name="orange" />
+    </visual>
+  </link>
+
+  <joint name="camera_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="camera" />
+    <origin rpy="0 1.57 0" xyz="0.439636 0 0.57" />
+  </joint>
 </robot>
 
