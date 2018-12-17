@@ -12,9 +12,16 @@
 -->
 
 <launch>
+  <arg name="bag_filenames"/>
+  <arg name="no_rviz" default="false"/>
+  <arg name="keep_running" default="false"/>
   <param name="/use_sim_time" value="true" />
-  <node name="rviz" pkg="rviz" type="rviz" required="true"
-      args="-d $(find cartographer_ros)/configuration_files/demo_2d.rviz" />
+
+  <group unless="$(arg no_rviz)">
+    <node name="rviz" pkg="rviz" type="rviz" required="true"
+        args="-d $(find cartographer_ros)/configuration_files/demo_2d.rviz" />
+  </group>
+
   <node name="cartographer_offline_node" pkg="cartographer_ros"
       required="true"
       type="cartographer_offline_node" args="
@@ -22,8 +29,7 @@
           -configuration_basenames mir-100-mapping.lua
           -urdf_filenames $(find cartographer_mir)/urdf/mir-100.urdf
           -use_bag_transforms=false
-          -bag_filenames $(arg bag_filenames)
-          -keep_running true"
+          -bag_filenames $(arg bag_filenames)"
       output="screen">
     <remap from="scan_1" to="f_scan" />
     <remap from="scan_2" to="b_scan" />
