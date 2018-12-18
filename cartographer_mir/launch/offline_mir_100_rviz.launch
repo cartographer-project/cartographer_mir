@@ -29,6 +29,7 @@
           -configuration_basenames mir-100-mapping.lua
           -urdf_filenames $(find cartographer_mir)/urdf/mir-100.urdf
           -use_bag_transforms=false
+          -keep_running $(arg keep_running)
           -bag_filenames $(arg bag_filenames)"
       output="screen">
     <remap from="scan_1" to="f_scan" />
